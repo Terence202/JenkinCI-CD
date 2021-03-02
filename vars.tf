@@ -3,11 +3,11 @@ variable "instance_type" {
 }
 
 variable "region" {
-  default = "us-west-1"
+  default = "us-east-1"
 }
 
 variable "ami_id" {
-  default = "ami-066c82dabe6dd7f73"
+  default = "ami-0915bcb5fa77e4892"
 }
 
 variable "name" {

@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket = "jjtech-ci-cd-terraform"
-    key    = "state/jjtech.tfstate"
-    region = "us-west-1"
+    bucket = "statefilebucket1842"
+    dynamodb_table = "terraform-state-lock-dynamo"
+    key    = "BackendFiles/cicd-terraform/jenkins-cicd.tfstate"
+    region = "us-east-1"
     profile = "default"
   }
 }
-
