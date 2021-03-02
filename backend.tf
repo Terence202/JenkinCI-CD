@@ -3,7 +3,7 @@ terraform {
     bucket = "statefilebucket1842"
     dynamodb_table = "terraform-state-lock-dynamo"
     key    = "BackendFiles/cicd-terraform/jenkins-cicd.tfstate"
-    region = "us-east-1"
+    region = "us-east-2"
     profile = "default"
   }
 }
